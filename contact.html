@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sanju - website">
+    <meta name="keywords"
+        content="Html, Css, jQuery, JavaScript, Sanju, onepage, personal, Portfolio, design, creative, template">
+
+    <!-- Title -->
+    <title>Sanju - One Page Creative Portfolio Template</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/icon.png">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" href="css-1?family=Montserrat:300,400,600,800">
+
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="css%20%281%29/font-awesome.min.css">
+    <!-- Magnific css -->
+    <link rel="stylesheet" href="css%20%281%29/magnific-popup.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css%20%281%29/bootstrap.min.css">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="css%20%281%29/owl.carousel.min.css">
+    <link rel="stylesheet" href="css%20%281%29/owl.theme.default.min.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="css%20%281%29/animate.min.css">
+    <!-- Main Style Css -->
+    <link rel="stylesheet" href="css%20%281%29/main.css">
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+
+        <style>
+            body {
+    font-family: 'Arial', sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.contact-header {
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+.contact-header h1 {
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contact-info div {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #222;
+}
+
+.social-media {
+    padding: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #222;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #0077b5; /* Example: LinkedIn color */
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+
+        </style>
+</head>
+
+<body>
+
+    <!-- ========== Start Loading ========== -->
+
+    <!-- <div class="preloader">
+        <div class="loading-overlay">
+            <div class="loading-inner">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div> -->
+
+<nav class="navbar navbar-default ">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <!-- logo -->
+            <a class="navbar-brand" href="#"><span>S</span>anju</a>
+        </div>
+        <!-- Collect the nav links, and other content for toggling -->
+        <div class="navbar-links" id="ournavbar">
+            <!-- links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-brand text-center visible-xs-block"><a href="index.html"><span>S</span>anju</a></li>
+                <li><a class="active" href="index.html" data-value="#" data-name="Home">Home</a></li>
+                <li><a href="index.html" data-value="#" data-name="About">About</a></li>
+                <li><a href="index.html" data-value="#services" data-name="Services">Services</a></li>
+                <li><a href="index.html" data-value="#resume" data-name="Resume">Resume</a></li>
+                <li><a href="index.html" data-value="#portfolio" data-name="Portfolio">Portfolio</a></li>
+                <!-- <li><a href="#" data-value="#blog" data-name="Blog">Blog</a></li> -->
+                <li><a href="contact.html" data-value="#contact" data-name="Contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="contact-header">
+            <h1>Get in Touch</h1>
+            <p>I'd love to hear from you! Feel free to reach out.</p>
+        </section>
+        
+        <section class="contact-form">
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        <section class="contact-info">
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p>st7109059@gmail.com</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91-6239784135</p>
+            </div>
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Bawana New Delhi</p>
+            </div>
+        </section>
+        
+        <section class="social-media">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-github"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </section>
+        
+        <footer>
+            <p>Available: Mon - Fri, 9 AM - 6 PM</p>
+            <p>Usually reply within 24 hours</p>
+        </footer>
+
+
+
+
+        <footer class="footer text-center">
+            <div class="container">
+                <a class="logo" href="#"><span>S</span>anju</a>
+                <ul class="footer-social-icons list-unstyled">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-behance"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    <p>All Right Reserved &copy; 2024 <a href="#" target="_blank">Sanju Thakur</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Typed Js -->
+        <script src="js/typed.js"></script>
+        <!-- Owl Carousel Js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- Count To Js -->
+        <script src="js/jquery.countTo.min.js"></script>
+        <!-- filterizr JS file -->
+        <script src="js/jquery.filterizr.js"></script>
+        <!-- Magnific Popup JS  -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!--  WOW Js  -->
+        <script src="js/wow.min.js"></script>
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+</body>
+</html>
