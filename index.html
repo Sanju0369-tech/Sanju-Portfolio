@@ -63,11 +63,62 @@
     height: 100vh;
     overflow: hidden;
 }
+    .sticky-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .sticky-buttons a {
+            display: block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            margin: 10px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+    .whatsapp-btn {
+            background-color: #25d366;
+        }
+
+        .phone-btn {
+            background-color: #007bff;
+        }
+
+        .sticky-buttons a:hover {
+            transform: scale(1.1);
+        }
+
+      @media (max-width: 768px) {
+            .sticky-buttons {
+                right: 10px;
+                bottom: 10px;
+            }
+            .sticky-buttons a {
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                font-size: 22px;
+            }
+        }
 </style>
 </head>
 
 <body>
-
+   <div class="sticky-buttons">
+        <a href="https://wa.me/919876543210" target="_blank" class="whatsapp-btn">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+        <a href="tel:+919876543210" class="phone-btn">
+            <i class="fa fa-phone"></i>
+        </a>
+    </div>
 
 
     <nav class="navbar navbar-default ">
