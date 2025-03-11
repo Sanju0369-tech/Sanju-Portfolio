@@ -16621,7 +16621,7 @@ h6 {
 
 .facts {
     position: relative;
-    background: url('../images/facts.jpg') center center no-repeat fixed;
+    background: url('web2.jpeg') center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
