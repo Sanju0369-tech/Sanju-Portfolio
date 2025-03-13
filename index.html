@@ -107,6 +107,7 @@
         }
         .text-content {
             opacity: 0;
+            transform: translateY(50px);
         }
         .image-content {
             opacity: 0;
@@ -122,6 +123,7 @@
                 transform: translateY(0);
             }
         }
+
     
     </style>
 </head>
@@ -232,7 +234,7 @@
 
 
 
-    <div class="container-fluid">
+ <div class="container-fluid">
         <div class="row section-container">
             <div class="col-lg-6 col-md-12 text-center text-md-start p-5">
                 <h2 class="text-content">AI-Powered eCommerce Website Development</h2>
@@ -907,9 +909,10 @@
         </div>
     </footer>
     <script>
-        gsap.from(".text-content", {
-            opacity: 0,
-            y: 50,
+    <script>
+        gsap.to(".text-content", {
+            opacity: 1,
+            y: 0,
             duration: 1.5,
             stagger: 0.3,
             ease: "power3.out"
