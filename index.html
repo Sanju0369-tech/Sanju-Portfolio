@@ -96,6 +96,30 @@
                 font-size: 22px;
             }
         }
+         .section-container {
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        .text-content {
+            opacity: 0;
+        }
+        .image-content {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
     </style>
 </head>
 <body>
@@ -202,6 +226,21 @@
             </div>
         </div>
     </section>
+
+
+
+    <div class="container-fluid">
+        <div class="row section-container">
+            <div class="col-lg-6 col-md-12 text-center text-md-start p-5">
+                <h2 class="text-content">AI-Powered eCommerce Website Development</h2>
+                <p class="text-content">Grow your online business with a scalable eCommerce solution, powered by Shopify and Shopify Plus...</p>
+                <a href="#" class="btn btn-warning text-content">Learn More</a>
+            </div>
+            <div class="col-lg-6 col-md-12 text-center">
+                <img src="image.png" class="img-fluid image-content" alt="E-commerce Design">
+            </div>
+        </div>
+    </div>
     <section class="services" id="services">
         <div class="container">
             <div class="main-title">
@@ -864,5 +903,20 @@
             </div>
         </div>
     </footer>
+    <script>
+        gsap.from(".text-content", {
+            opacity: 0,
+            y: 50,
+            duration: 1.5,
+            stagger: 0.3,
+            ease: "power3.out"
+        });
+        gsap.to(".image-content", {
+            opacity: 1,
+            x: 0,
+            duration: 1.5,
+            ease: "power3.out"
+        });
+    </script>
 </body>
 </html>
