@@ -2,294 +2,360 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sanju - website">
-    <meta name="keywords"
-        content="Html, Css, jQuery, JavaScript, Sanju, onepage, personal, Portfolio, design, creative, template">
-
-    <!-- Title -->
-    <title>Sanju - One Page Creative Portfolio Template</title>
-    <!-- Favicon -->
-    <link rel="icon" href="images/icon.png">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="css?family=Open+Sans:400,600,700">
-    <link rel="stylesheet" href="css-1?family=Montserrat:300,400,600,800">
-
-    <!-- Font Awesome Css -->
-    <link rel="stylesheet" href="css%20%281%29/font-awesome.min.css">
-    <!-- Magnific css -->
-    <link rel="stylesheet" href="css%20%281%29/magnific-popup.css">
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="css%20%281%29/bootstrap.min.css">
-    <!-- Owl Carousel Css -->
-    <link rel="stylesheet" href="css%20%281%29/owl.carousel.min.css">
-    <link rel="stylesheet" href="css%20%281%29/owl.theme.default.min.css">
-    <!-- Animate Css -->
-    <link rel="stylesheet" href="css%20%281%29/animate.min.css">
-    <!-- Main Style Css -->
-    <link rel="stylesheet" href="css%20%281%29/main.css">
-
-    <!--[if lt IE 9]>
-        <script src="js/html5shiv.min.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Design Company in Bawana | Website Development Company in Bawana </title>
+  <meta name="description"
+    content="Experienced website developer specializing in responsive web design, e-commerce Website, and SEO optimization. Contact now for affordable and professional web solutions.">
+  <meta name="keywords"
+    content="website developer in bawana, website design in bawana , website design services in bawana, website design in delhi , website development in vijay nagar">
+  <meta name="author"
+    content=" Website Developer,professional web designer,custom web development services,responsive website design, seo-friendly websites, wordPress developer, e-commerce website development,affordable web development,Hire freelance web developer">
+  <meta name="canonical" content="https://sanju-portfolio-peach.vercel.app">
+  <meta name="robots" content=" FOLLOW, INDEX, ALL">
+  <meta name="google-site-verification" content="JGudynJh7caXo7zCh-1ELiBsYwhmZANWFHgnz8PYm58" />
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta property="og:title" content=Website Design Company in Bawana | Website Development Company in Bawana>
+  <meta property="og:site_name" content=Website Development Company in Bawana>
+  <meta property="og:url" content=https://sanju-portfolio-peach.vercel.app>
+  <meta property="og:description" content=Experienced website developer specializing in responsive web design,e-commerce
+    Website, and SEO optimization. Contact now for affordable and professional web solutions.>
+  <meta property="og:type" content="">
+  <meta property="og:image" content=https://sanju-portfolio-peach.vercel.app/banner1.png>
 
 
-        <style>
-            body {
-    font-family: 'Arial', sans-serif;
-    background: #f7f7f7;
-    color: #333;
-    text-align: center;
-    padding: 0 20px;
-}
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Website Development Company in Bawana",
+        "url": "https://sanju-portfolio-peach.vercel.app/",
+        "logo": "https://sanju-portfolio-peach.vercel.app/web2.jpeg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "9266903433",
+          "contactType": "",
+          "areaServed": "IN",
+          "availableLanguage": ["en","Hindi"]
+        },
+        "sameAs": [
+          "https://www.instagram.com/sanju_thakur_0369/",
+          "www.linkedin.com/in/sanju-thakur-2b6807214",
+          "https://www.youtube.com/@WebsiteDevelopmentCompanyinBaw"
+        ]
+      }
+      </script>
+  <style>
+    .home {
+      background: url('banner1.png') center center no-repeat fixed !important;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
 
-.contact-header {
-    padding: 20px;
-    background: #222;
-    color: white;
-}
+    .sticky-buttons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
 
-.contact-header h1 {
-    margin-bottom: 10px;
-}
+    .sticky-buttons a {
+      display: block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 50%;
+      color: white;
+      font-size: 24px;
+      margin: 10px 0;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease-in-out;
+    }
 
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
+    .whatsapp-btn {
+      background-color: #25d366;
+    }
 
-.contact-form input, .contact-form textarea {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 25px;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-}
+    .phone-btn {
+      background-color: #007bff;
+    }
 
-.contact-form textarea {
-    height: 100px;
-}
+    .sticky-buttons a:hover {
+      transform: scale(1.1);
+    }
 
-.contact-form button {
-    padding: 10px 20px;
-    background-color: #222;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
+    @media (max-width: 768px) {
+      .sticky-buttons {
+        right: 10px;
+        bottom: 10px;
+      }
 
-.contact-form button:hover {
-    background-color: #555;
-}
+      .sticky-buttons a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+      }
+    }
 
-.contact-info {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
-}
+    .section-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      min-height: 100vh;
+      padding: 40px;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+    }
 
-.contact-info div {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-}
+    .text-content {
+      flex: 1;
+      max-width: 500px;
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeInUp 1.5s ease-out forwards;
+    }
 
-.contact-info i {
-    font-size: 20px;
-    margin-right: 10px;
-    color: #222;
-}
+    .text-content h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
 
-.social-media {
-    padding: 20px;
-}
+    .text-content p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      text-align: justify;
+    }
 
-.social-media a {
-    margin: 0 10px;
-    font-size: 20px;
-    color: #222;
-    transition: color 0.3s;
-}
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 1rem;
+      color: white;
+      background: #ff9800;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 10px rgba(255, 152, 0, 0.3);
+      margin-bottom: 30px;
+    }
 
-.social-media a:hover {
-    color: #0077b5; /* Example: LinkedIn color */
-}
+    .btn:hover {
+      background: #ffb74d;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(255, 152, 0, 0.4);
+    }
 
-footer {
-    background: #222;
-    color: white;
-    padding: 10px;
-}
+    .image-content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      max-width: 500px;
+      opacity: 0;
+      transform: scale(0.8);
+      animation: fadeInScale 1.5s ease-out 0.5s forwards;
+    }
 
-        </style>
+    .image-content img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInScale {
+      from {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .section-container {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+  
+      body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .contact-section {
+      padding: 60px 0;
+    }
+
+    .contact-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      transition: 0.3s;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .contact-info i {
+      font-size: 22px;
+      color: #0d6efd;
+      margin-right: 10px;
+    }
+
+    .form-control:focus {
+      border-color: #0d6efd;
+      box-shadow: none;
+    }
+
+    .btn-custom {
+      background-color: #0d6efd;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 30px;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #084298;
+    }
+
+    iframe {
+      width: 100%;
+      border-radius: 16px;
+      border: none;
+    }
+
+    @media(max-width: 768px) {
+      .contact-card {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-    <!-- ========== Start Loading ========== -->
-
-    <!-- <div class="preloader">
-        <div class="loading-overlay">
-            <div class="loading-inner">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div> -->
-
-<nav class="navbar navbar-default ">
+  <div class="sticky-buttons">
+    <a href="https://wa.me/919266903433" target="_blank" class="whatsapp-btn">
+      <i class="fa fa-whatsapp"></i>
+    </a>
+    <a href="tel:+9266903433" class="phone-btn">
+      <i class="fa fa-phone"></i>
+    </a>
+  </div>
+  <nav class="navbar navbar-default ">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button class="menu-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-            <!-- logo -->
-            <a class="navbar-brand" href="#"><span>S</span>anju</a>
-        </div>
-        <!-- Collect the nav links, and other content for toggling -->
-        <div class="navbar-links" id="ournavbar">
-            <!-- links -->
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-brand text-center visible-xs-block"><a href="index.html"><span>S</span>anju</a></li>
-                <li><a class="active" href="index.html" data-value="#" data-name="Home">Home</a></li>
-                <li><a href="index.html" data-value="#" data-name="About">About</a></li>
-                <li><a href="index.html" data-value="#services" data-name="Services">Services</a></li>
-                <li><a href="index.html" data-value="#resume" data-name="Resume">Resume</a></li>
-                <li><a href="index.html" data-value="#portfolio" data-name="Portfolio">Portfolio</a></li>
-                <!-- <li><a href="#" data-value="#blog" data-name="Blog">Blog</a></li> -->
-                <li><a href="contact.html" data-value="#contact" data-name="Contact">Contact</a></li>
-            </ul>
-        </div>
+      <div class="navbar-header">
+        <button class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><span>S</span>anju</a>
+      </div>
+      <div class="navbar-links" id="ournavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-brand text-center visible-xs-block"><a href="index.html"><span>S</span>anju</a></li>
+          <li><a class="active" href="index.html" data-value="#home" data-name="Home">Home</a></li>
+          <li><a href="index.html" data-value="#about" data-name="About">About</a></li>
+          <li><a href="index.html" data-value="#services" data-name="Services">Services</a></li>
+          <li><a href="index.html" data-value="#resume" data-name="Resume">Resume</a></li>
+          <li><a href="index.html" data-value="#portfolio" data-name="Portfolio">Portfolio</a></li>
+          <li><a href="index.html" data-value="#contact" data-name="Contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section class="contact-header">
-            <h1>Get in Touch</h1>
-            <p>I'd love to hear from you! Feel free to reach out.</p>
-        </section>
-        
-        <section class="contact-form">
-            <form action="#">
-                <input type="text" name="name" placeholder="Your Name">
-                <input type="email" name="email" placeholder="Your Email">
-                <input type="text" name="subject" placeholder="Subject">
-                <textarea name="message" placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
+  <section class="contact-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Get in Touch</h2>
+        <p class="text-muted">We’d love to hear from you! Fill out the form below or contact us through the details.</p>
+      </div>
+      <div class="row g-4">
+        <!-- Contact Form -->
+        <div class="col-lg-6">
+          <div class="contact-card">
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="post">
+              <input type="hidden" name="access_key" value="0b17fa40-a9a5-471a-944d-e3ad263ebff7">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name" required="" value=""
+                                onkeyup="this.setAttribute('value', this.value);">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Number</label>
+                <input type="number" class="form-control" id="subject" placeholder="Subject of your message" name="number">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-custom " style="margin-top:20px;">Send Message</button>
             </form>
-        </section>
-        
-        <section class="contact-info">
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p>st7109059@gmail.com</p>
+          </div>
+        </div>
+
+        <!-- Contact Info & Map -->
+        <div class="col-lg-6">
+          <div class="contact-card h-100">
+            <div class="contact-info mb-4">
+              <p><i class="fa fa-map-marker"></i> Vijay Nagar Colony Gali No 6 Bawana New Delhi(110039)</p>
+              <p><i class="fa fa-envelope"></i> designers0369@gmail.com</p>
+              <p><i class="fa fa-phone"></i> +91 9266903433</p>
             </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+91-6239784135</p>
-            </div>
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p>Bawana New Delhi</p>
-            </div>
-        </section>
-        
-        <section class="social-media">
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-github"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-        </section>
-        
-        <footer>
-            <p>Available: Mon - Fri, 9 AM - 6 PM</p>
-            <p>Usually reply within 24 hours</p>
-        </footer>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.3144205855215!2d77.03803867384501!3d28.799702676472617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390da99e8d72af61%3A0xe9cc4191fe240b0b!2sWEBSITE%20Development%20Company%20in%20bawana%2C%20Website%20Designing%20Company!5e0!3m2!1shi!2sin!4v1745256065029!5m2!1shi!2sin"
+            height="290" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-
-
-        <footer class="footer text-center">
-            <div class="container">
-                <a class="logo" href="#"><span>S</span>anju</a>
-                <ul class="footer-social-icons list-unstyled">
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-behance"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-dribbble"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-                <div class="copyright">
-                    <p>All Right Reserved &copy; 2024 <a href="#" target="_blank">Sanju Thakur</a></p>
-                </div>
-            </div>
-        </footer>
-
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Typed Js -->
-        <script src="js/typed.js"></script>
-        <!-- Owl Carousel Js -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!-- Count To Js -->
-        <script src="js/jquery.countTo.min.js"></script>
-        <!-- filterizr JS file -->
-        <script src="js/jquery.filterizr.js"></script>
-        <!-- Magnific Popup JS  -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <!--  WOW Js  -->
-        <script src="js/wow.min.js"></script>
-        <!-- Custom Js -->
-        <script src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
