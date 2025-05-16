@@ -1,344 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Website Development Company | Best Web Development Services</title>
-<meta name="description"
-  content="Best Website Development Company in Delhi, offering top-notch website development services in Bawana and beyond. Get a responsive, SEO-friendly website today!">
-<meta name="keywords"
-  content="website development company, website development company in Delhi, website development services in Bawana, best website development company, top website development company">
-<meta name="author"
-    content=" Website Developer,professional web designer,custom web development services,responsive website design, seo-friendly websites, wordPress developer, e-commerce website development,affordable web development,Hire freelance web developer">
-<meta name="canonical" content="https://sanju-portfolio-peach.vercel.app">
-<meta name="robots" content=" FOLLOW, INDEX, ALL">
-<meta name="google-site-verification" content="JGudynJh7caXo7zCh-1ELiBsYwhmZANWFHgnz8PYm58" />
-<link rel="icon" href="icon.webp">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta property="og:title" content="Website Design Company in Bawana | Website Development Company in Bawana">
-<meta property="og:site_name" content="Website Development Company in Bawana">
-<meta property="og:url" content="https://sanju-portfolio-peach.vercel.app">
-<meta property="og:description" content="Experienced website developer specializing in responsive web design, e-commerce Website, and SEO optimization. Contact now for affordable and professional web solutions.">
-<meta property="og:image" content="https://sanju-portfolio-peach.vercel.app/banner1.webp">
-<meta property="og:type" content="website">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Corporation",
-  "name": "Website Development Company in Bawana",
-  "url": "https://sanju-portfolio-peach.vercel.app/",
-  "logo": "https://sanju-portfolio-peach.vercel.app/web2.jpeg",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "9266903433",
-    "contactType": "Customer Support",
-    "areaServed": "IN",
-    "availableLanguage": ["en","Hindi"]
-  },
-  "sameAs": [
-    "https://www.instagram.com/sanju_thakur_0369/",
-    "https://www.linkedin.com/in/sanju-thakur-2b6807214",
-    "https://www.youtube.com/@WebsiteDevelopmentCompanyinBaw"
-  ]
-}
-</script>
-  <script>
-  document.querySelector('.menu-toggle').addEventListener('click', function () {
-    document.getElementById('ournavbar').classList.toggle('active');
-  });
-</script>
-
-<style>
-  .navbar-links.active {
-    display: block;
-  }
-
-  @media (max-width: 768px) {
-    .navbar-links {
-      display: none;
-    }
-  }
-</style>
-
-<style>
-  .col-lg-6 img{
-    width: 100%;
-    height: 440px;
-    border-radius: 25px;
-  }
-  .home {
-    background: url('banner1.webp') center center no-repeat fixed !important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .sticky-buttons {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-  }
-
-  .sticky-buttons a {
-    display: block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    color: white;
-    font-size: 24px;
-    margin: 10px 0;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .whatsapp-btn {
-    background-color: #25d366;
-  }
-
-  .phone-btn {
-    background-color: #007bff;
-  }
-
-  .sticky-buttons a:hover {
-    transform: scale(1.1);
-  }
-
-  @media (max-width: 768px) {
-    .sticky-buttons {
-      right: 10px;
-      bottom: 10px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website development company in Bawana - offering top website design and development services for businesses. Best freelance web developer near you.">
+  <meta name="keywords" content="website development company in bawana, website development company, website designing company in bawana, best website development company in bawana, best website designing company in bawana, top website development company in bawana, website developer, website design, website designer, web design services, website development service, website development services, website designer near me, website freelance designer, freelance website developer near me, web developer near me">
+  <title>Website Development Company in Bawana | Freelance Web Designer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .sticky-buttons a {
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      font-size: 22px;
-    }
-  }
-
-  .section-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
-    padding: 40px;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    color: white;
-    text-align: center;
-  }
-
-  .text-content {
-    flex: 1;
-    max-width: 500px;
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeInUp 1.5s ease-out forwards;
-  }
-
-  .text-content h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-
-  .text-content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    line-height: 1.6;
-    text-align: justify;
-  }
-
-  .btn {
-    display: inline-block;
-    padding: 12px 25px;
-    font-size: 1rem;
-    color: white;
-    background: #ff9800;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s ease;
-    box-shadow: 0 4px 10px rgba(255, 152, 0, 0.3) ;
-    margin-bottom:30px;
-  }
-
-  .btn:hover {
-    background: #ffb74d;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 15px rgba(255, 152, 0, 0.4);
-  }
-
-  .image-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    max-width: 500px;
-    opacity: 0;
-    transform: scale(0.8);
-    animation: fadeInScale 1.5s ease-out 0.5s forwards;
-  }
-
-  .image-content img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
-  }
-
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(50px);
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f9fa;
     }
 
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes fadeInScale {
-    from {
-      opacity: 0;
-      transform: scale(0.8);
-    }
-
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .section-container {
-      flex-direction: column;
+    header {
+      background: linear-gradient(to right, #007bff, #00c6ff);
+      color: white;
+      padding: 2rem 1rem;
       text-align: center;
     }
-  }
-  body{
-    color: white !important;
-  }
-  .content-section{
-    margin-top: 20px;
-  }
-</style>
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section:nth-child(even) {
+      background-color: #e9ecef;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #007bff;
+    }
+
+    .section-content {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .feature-box {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .cta {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-      <nav class="navbar navbar-default ">
-        <div class="container">
-          <div class="navbar-header">
-            <button class="menu-toggle">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><span>S</span>anju</a>
-          </div>
-          <div class="navbar-links" id="ournavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="nav-brand text-center visible-xs-block"><a href="index.html"><span>S</span>anju</a></li>
-              <li><a class="active" href="index.html" data-value="#home" data-name="Home">Home</a></li>
-              <li><a href="index.html" data-value="#about" data-name="About">About</a></li>
-              <li><a href="index.html" data-value="#services" data-name="Services">Services</a></li>
-              <li><a href="index.html" data-value="#resume" data-name="Resume">Resume</a></li>
-              <li><a href="index.html" data-value="#portfolio" data-name="Portfolio">Portfolio</a></li>
-              <li><a href="index.html" data-value="#contact" data-name="Contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <header>
+    <h1>Best Website Development Company in Bawana</h1>
+    <p>Website Designer Near Me | Freelance Website Developer</p>
+  </header>
 
+  <section>
+    <h2 class="section-title">Why Choose Us?</h2>
+    <div class="section-content">
+      <p>We are a top website development company in Bawana offering modern, responsive and SEO-friendly websites. Whether you're looking for website design, development, or a freelance web developer near you, we deliver quality that converts visitors into customers.</p>
+    </div>
+  </section>
 
-      <section class="home" id="home">
-        <div class="overlay">
-          <div class="container">
-            <div class="intro display-table">
-              <div class="display-table-cell">
-                <h3>Hey, My name is</h3>
-                <h1>Sanju Thakur</h1>
-                <p>A Freelance Website Designer & Developer<span></span></p>
-                <div class="my-btn">
-                  <a href="tel:+9266903433" class="main-btn">Hire Me</a>
-                </div>
-              </div>
-            </div>
-            <div class="arrow">
-              <a href="index.html">Discover</a>
-            </div>
-          </div>
-        </div>
-      </section>
+  <section>
+    <h2 class="section-title">Our Services</h2>
+    <div class="features-grid">
+      <div class="feature-box">
+        <h3>Website Development</h3>
+        <p>Professional and custom website development services in Bawana and across India.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Website Designing</h3>
+        <p>Eye-catching UI/UX designs that are mobile responsive and user friendly.</p>
+      </div>
+      <div class="feature-box">
+        <h3>SEO Optimization</h3>
+        <p>Rank your site on Google with our proven SEO techniques tailored for Bawana market.</p>
+      </div>
+      <div class="feature-box">
+        <h3>E-Commerce Development</h3>
+        <p>Start your online store with fast-loading and fully optimized e-commerce websites.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Freelance Web Development</h3>
+        <p>Looking for a freelance website developer near you? I can help build what you need.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Website Maintenance</h3>
+        <p>Regular maintenance, updates, and backups to keep your website fresh and secure.</p>
+      </div>
+    </div>
+  </section>
 
-          <section class="content-section mt-4" >
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h2>Best Website Development Services in Bawana</h2>
-                  <p style="font-size: 20px;">Looking for a professional <strong>website development company in Delhi</strong>? We specialize in creating
-                    high-quality, mobile-friendly, and SEO-optimized websites tailored to your business needs.</p>
-                  <ul style="font-size: 17px;">
-                    <li>Custom Web Development</li>
-                    <li>eCommerce Website Development</li>
-                    <li>SEO-Optimized Website Design</li>
-                    <li>Responsive and Mobile-Friendly Websites</li>
-                    <li>WordPress Development</li>
-                    <li>Website Maintenance & Support</li>
-                  </ul>
-                </div>
-                <div class="col-lg-6 text-center">
-                  <img src="website-development.webp" loading="lazy" alt="Custom Website Development Services in Delhi NCR" class="img-fluid rounded" title="Best Website Development company">
-                </div>
-              </div>
-            </div>
-          </section>
-          
-          <!-- Why Choose Us? -->
-          <section class="content-section bg-light">
-            <div class="container">
-              <h2 class="text-center">Why Choose Us as Your Website Development Company?</h2>
-              <div class="row">
-                <div class="col-lg-4">
-                  <h4>Experienced Developers</h4>
-                  <p>Our skilled team delivers high-performance, scalable websites that cater to various industries.</p>
-                </div>
-                <div class="col-lg-4">
-                  <h4>SEO-Friendly Designs</h4>
-                  <p>We create websites that rank high on Google, ensuring more traffic and better business growth.</p>
-                </div>
-                <div class="col-lg-4">
-                  <h4>Affordable Pricing</h4>
-                  <p>Get top-quality website development services in Bawana at competitive prices.</p>
-                </div>
-              </div>
-            </div>
-          </section>
-          
-          <!-- Contact Us -->
-          <section class="content-section text-center">
-            <div class="container">
-              <h2>Looking for the Best Website Development Company?</h2>
-              <p>Contact us today and let’s build an amazing website for your business!</p>
-              <a href="#" class="btn btn-primary">Get a Free Quote</a>
-            </div>
-          </section>
-            <footer style="background: #111; padding: 20px; text-align: center;">
-  <p style="color: #ccc;">&copy; 2025 Website Development Company in Bawana | Sanju Thakur</p>
-</footer>
+  <section>
+    <h2 class="section-title">Trusted by Local Businesses</h2>
+    <div class="section-content">
+      <p>Many local businesses in Bawana and surrounding areas trust us as the best website designing company in Bawana. Our clients love our creativity, communication, and delivery.</p>
+    </div>
+  </section>
 
-          </section>
+  <section>
+    <h2 class="section-title">SEO Keywords We Target</h2>
+    <div class="section-content">
+      <p>We rank high for: website developer, website design, freelance website developer near me, website development services, best website designing company in Bawana, and more.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Portfolio Highlights</h2>
+    <div class="section-content">
+      <p>Our web design services include work for e-commerce stores, startup websites, local service pages, blogs, and more. Ask to see our recent projects!</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Let’s Build Something Great</h2>
+    <div class="section-content">
+      <p>If you're searching for a freelance web designer or the top website development company in Bawana, you're in the right place. Let’s discuss your idea today!</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Grow Online?</h2>
+    <p>Contact me for best website development services in Bawana. Get a free consultation!</p>
+    <button class="btn-primary">Get Started Now</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Web Developer | Website Development Company in Bawana</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
