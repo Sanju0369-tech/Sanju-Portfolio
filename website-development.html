@@ -4,11 +4,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Website Development Company in Bawana | Freelance Web Designer</title>
   <meta name="description" content="Website development company in Bawana - offering top website design and development services for businesses. Best freelance web developer near you.">
   <meta name="keywords" content="website development company in bawana, website development company, website designing company in bawana, best website development company in bawana, best website designing company in bawana, top website development company in bawana, website developer, website design, website designer, web design services, website development service, website development services, website designer near me, website freelance designer, freelance website developer near me, web developer near me">
-  <title>Website Development Company in Bawana | Freelance Web Designer</title>
+ <meta name="author"
+    content=" Website Developer,professional web designer,custom web development services,responsive website design, seo-friendly websites, wordPress developer, e-commerce website development,affordable web development,Hire freelance web developer">
+<meta name="canonical" content="https://sanju-portfolio-peach.vercel.app">
+<meta name="robots" content=" FOLLOW, INDEX, ALL">
+<meta name="google-site-verification" content="JGudynJh7caXo7zCh-1ELiBsYwhmZANWFHgnz8PYm58" />
+<link rel="icon" href="icon.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta property="og:title" content="Website Design Company in Bawana | Website Development Company in Bawana">
+<meta property="og:site_name" content="Website Development Company in Bawana">
+<meta property="og:url" content="https://sanju-portfolio-peach.vercel.app">
+<meta property="og:description" content="Experienced website developer specializing in responsive web design, e-commerce Website, and SEO optimization. Contact now for affordable and professional web solutions.">
+<meta property="og:image" content="https://sanju-portfolio-peach.vercel.app/banner1.webp">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "Website Development Company in Bawana",
+  "url": "https://sanju-portfolio-peach.vercel.app/",
+  "logo": "https://sanju-portfolio-peach.vercel.app/web2.jpeg",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "9266903433",
+    "contactType": "Customer Support",
+    "areaServed": "IN",
+    "availableLanguage": ["en","Hindi"]
+  },
+  "sameAs": [
+    "https://www.instagram.com/sanju_thakur_0369/",
+    "https://www.linkedin.com/in/sanju-thakur-2b6807214",
+    "https://www.youtube.com/@WebsiteDevelopmentCompanyinBaw"
+  ]
+}
+</script>
+  <script>
+  document.querySelector('.menu-toggle').addEventListener('click', function () {
+    document.getElementById('ournavbar').classList.toggle('active');
+  });
+</script>
   <style>
     * {
       margin: 0;
@@ -22,12 +60,27 @@
       color: #333;
       background-color: #f8f9fa;
     }
+ .navbar-links.active {
+    display: block;
+  }
 
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+  }
     header {
-      background: url("banner1.webp");
+      background: url("banner1.webp") center center no-repeat fixed;
       color: white;
       padding: 2rem 1rem;
       text-align: center;
+       -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
     }
 
     header h1 {
@@ -118,10 +171,81 @@
         font-size: 1.5rem;
       }
     }
+
+      .sticky-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .sticky-buttons a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    margin: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .whatsapp-btn {
+    background-color: #25d366;
+  }
+
+  .phone-btn {
+    background-color: #007bff;
+  }
+
+  .sticky-buttons a:hover {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    .sticky-buttons {
+      right: 10px;
+      bottom: 10px;
+    }
+
+    .sticky-buttons a {
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      font-size: 22px;
+    }
+  }
   </style>
 </head>
 
 <body>
+
+   <nav class="navbar navbar-default ">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="menu-toggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><span>S</span>anju</a>
+          </div>
+          <div class="navbar-links" id="ournavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-brand text-center visible-xs-block"><a href="index.html"><span>S</span>anju</a></li>
+              <li><a class="active" href="index.html" data-value="#home" data-name="Home">Home</a></li>
+              <li><a href="index.html" data-value="#about" data-name="About">About</a></li>
+              <li><a href="index.html" data-value="#services" data-name="Services">Services</a></li>
+              <li><a href="index.html" data-value="#resume" data-name="Resume">Resume</a></li>
+              <li><a href="index.html" data-value="#portfolio" data-name="Portfolio">Portfolio</a></li>
+              <li><a href="index.html" data-value="#contact" data-name="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   <header>
     <h1>Best Website Development Company in Bawana</h1>
     <p>Website Designer Near Me | Freelance Website Developer</p>
