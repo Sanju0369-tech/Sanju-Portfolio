@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Agency Landing Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    .why-choose-us i {
+      transition: transform 0.3s ease;
+    }
+
+    .why-choose-us i:hover {
+      transform: scale(1.2);
+    }
+
+    .testimonials {
+      background: #f8f9fa;
+    }
+
+    .testimonials p.lead {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <section class="py-5 text-center bg-primary text-white">
+    <div class="container">
+      <h1 data-aos="fade-down">Grow Your Business with SEO</h1>
+      <p class="lead" data-aos="fade-up">We offer expert SEO and digital marketing services</p>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-choose-us py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-4" data-aos="fade-up">
+        <h2>Why Choose Us?</h2>
+        <p class="text-muted">Delivering measurable results through digital solutions</p>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fa fa-line-chart fa-3x text-primary mb-3"></i>
+          <h4>Proven SEO Results</h4>
+          <p>We boost rankings and increase organic traffic for top-tier brands and startups.</p>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fa fa-lightbulb-o fa-3x text-success mb-3"></i>
+          <h4>Innovative Strategy</h4>
+          <p>We blend creativity with data to craft effective digital marketing campaigns.</p>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fa fa-support fa-3x text-danger mb-3"></i>
+          <h4>24/7 Client Support</h4>
+          <p>Get full-time support and real-time insights into your marketing campaigns.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials py-5">
+    <div class="container">
+      <div class="text-center mb-4" data-aos="fade-up">
+        <h2>What Our Clients Say</h2>
+      </div>
+      <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-aos="fade-up">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="text-center">
+              <p class="lead">"They transformed our SEO in just 3 months. Exceptional service and consistent support."</p>
+              <h5>- Anjali Sharma, Ecom Brand</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="text-center">
+              <p class="lead">"Best digital marketing agency we’ve worked with. Creative and data-driven."</p>
+              <h5>- Rohit Mehta, SaaS Startup</h5>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools & Technologies -->
+  <section class="tools py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-4" data-aos="fade-up">
+        <h2>Our Tools & Technologies</h2>
+      </div>
+      <div class="row text-center">
+        <div class="col-4 col-md-2 mb-3" data-aos="flip-left" data-aos-delay="100">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="50">
+          <p>Google</p>
+        </div>
+        <div class="col-4 col-md-2 mb-3" data-aos="flip-left" data-aos-delay="200">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50">
+          <p>JavaScript</p>
+        </div>
+        <div class="col-4 col-md-2 mb-3" data-aos="flip-left" data-aos-delay="300">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="50">
+          <p>WordPress</p>
+        </div>
+        <div class="col-4 col-md-2 mb-3" data-aos="flip-left" data-aos-delay="400">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="50">
+          <p>Figma</p>
+        </div>
+        <div class="col-4 col-md-2 mb-3" data-aos="flip-left" data-aos-delay="500">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50">
+          <p>Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-white">
+    <p>&copy; 2025 Your SEO Agency. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+
+</html>
