@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Website Design Company in Bawana | Website Development Company in Bawana </title>
     <meta name="description"content="Experienced website developer specializing in responsive web design, e-commerce Website, and SEO optimization. Contact now for affordable and professional web solutions.">
-    <meta name="keywords"content="website developer in bawana, website design in bawana , website design services in bawana, website design in delhi , website development in vijay nagar , website development company in bawana, Website Designing Company in Bawana Industrial Area">
-    <meta name="author"content=" Website Developer,professional web designer,custom web development services,responsive website design, seo-friendly websites, wordPress developer, e-commerce website development,affordable web development,Hire freelance web developer">
+    <meta name="keywords"content="website development company in bawana, Website Designing Company in Bawana Industrial Area, website developer in bawana, website design in bawana , website design services in bawana, website design in delhi , website development in vijay nagar">
+    <meta name="author"content=" Website Developement Company in Bawana , Website Designing Company in bawana Delhi, Website Developer,professional web designer,custom web development services,responsive website design, seo-friendly websites, wordPress developer, e-commerce website development,affordable web development,Hire freelance web developer">
     <meta name="canonical" content="https://sanju-portfolio-peach.vercel.app">
     <meta name="robots" content=" FOLLOW, INDEX, ALL">
 
@@ -15,8 +15,8 @@
   
 <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta property="og:title" content="Website Design Company in Bawana | Website Development Company in Bawana">
-    <meta property="og:site_name" content="Website Development Company in Bawana">
+    <meta property="og:title" content="Website Design & Website Development Company in Bawana">
+    <meta property="og:site_name" content="Website Design & Website Development Company in Bawana , Delhi (110039)">
     <meta property="og:url" content="https://sanju-portfolio-peach.vercel.app">
     <meta property="og:description" content="Experienced website developer specializing in responsive web design,e-commerce Website, and SEO optimization. Contact now for affordable and professional web solutions.">
     <meta property="og:type" content="website">
@@ -232,6 +232,68 @@
                 text-align: center;
             }
         }
+        .faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .faq-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+  }
+
+  .faq-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .faq-question {
+    background: #f5f5f5;
+    padding: 15px 20px;
+    cursor: pointer;
+    position: relative;
+    font-weight: 600;
+  }
+
+  .faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 1.2em;
+  }
+
+  .faq-item.active .faq-question::after {
+    content: '-';
+  }
+
+  .faq-answer {
+    padding: 15px 20px;
+    display: none;
+    background: #fff;
+    color: #444;
+  }
+
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+
+  @media (max-width: 600px) {
+    .faq-section {
+      padding: 10px;
+    }
+
+    .faq-question,
+    .faq-answer {
+      font-size: 15px;
+    }
+  }
     </style>
 </head>
 
@@ -955,6 +1017,39 @@
             </div>
         </div>
     </section>
+
+
+    <div class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <div class="faq-question">Which is the best website designing company in Bawana?</div>
+    <div class="faq-answer">
+      Sanju (Freelancer) is one of the best website designing companies in Bawana, offering responsive web design, e-commerce development, and SEO optimization for local businesses.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Do you offer mobile-friendly and SEO-optimized websites in Bawana?</div>
+    <div class="faq-answer">
+      Yes, our team specializes in mobile-responsive and SEO-optimized website design in Bawana to help businesses rank higher on Google and generate more leads.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">How much does it cost to design a website in Bawana?</div>
+    <div class="faq-answer">
+      Website design costs in Bawana vary depending on features, design complexity, and pages. Basic websites start from ₹5,000, while e-commerce sites may range between ₹15,000–₹40,000.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Can I get custom website development services in Bawana?</div>
+    <div class="faq-answer">
+      Absolutely! We offer custom website development services in Bawana tailored to your business needs, including CMS platforms like WordPress, Shopify, and custom PHP or ReactJS-based websites.
+    </div>
+  </div>
+</div>
     <section class="contact" id="contact">
         <div class="container">
             <div class="main-title">
@@ -1082,6 +1177,13 @@
         </div>
     </footer>
 
-
+<script>
+  document.querySelectorAll('.faq-question').forEach(item => {
+    item.addEventListener('click', () => {
+      const parent = item.parentElement;
+      parent.classList.toggle('active');
+    });
+  });
+</script>
 </body>
 </html>
