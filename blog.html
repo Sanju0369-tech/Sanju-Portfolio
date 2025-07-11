@@ -5,88 +5,161 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Best website design and development services in Bawana. Explore expert insights on choosing the right web design company and SEO services in Delhi.">
   <title>Best Website Design Company in Bawana - Blog</title>
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary: #1e3c72;
+      --accent: #3a7bd5;
+      --background: #f7f9fc;
+      --white: #fff;
+      --shadow: 0 4px 20px rgba(30,60,114,0.07);
+    }
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Montserrat', 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f7f9fc;
+      background: var(--background);
       color: #333;
     }
     .container {
-      max-width: 1000px;
+      max-width: 900px;
       margin: 40px auto;
-      padding: 20px;
-      background: #fff;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 30px 20px;
+      background: var(--white);
+      box-shadow: var(--shadow);
+      border-radius: 16px;
     }
-    h1, h2, h3 {
-      color: #1e3c72;
+    h1 {
+      text-align: center;
+      font-size: 2.4rem;
+      color: var(--primary);
+      margin-bottom: 32px;
+      font-weight: 700;
+      letter-spacing: 1px;
     }
     .faq {
       margin-bottom: 40px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid #eaeaea;
     }
-    .faq img {
+    .faq:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 18px;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    img {
       width: 100%;
-      max-width: 700px;
-      border-radius: 10px;
-      margin: 20px 0;
+      max-width: 600px;
+      border-radius: 12px;
+      margin: 18px auto;
+      display: block;
+      box-shadow: 0 2px 12px rgba(58,123,213,0.10);
+      transition: transform 0.3s;
     }
-    .faq p {
+    img:hover {
+      transform: scale(1.04);
+    }
+    .faq p, .faq ul {
       line-height: 1.7;
-      font-size: 16px;
+      font-size: 1.08rem;
+      margin: 12px 0;
+    }
+    ul {
+      padding-left: 22px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    /* Accent blockquote */
+    .faq p:first-of-type {
+      background: linear-gradient(90deg, #e3ecfc 0%, #f7f9fc 100%);
+      border-left: 4px solid var(--accent);
+      padding: 12px 16px;
+      border-radius: 6px;
+      font-style: italic;
+      margin-top: 0;
+    }
+    /* Responsive Design */
+    @media (max-width: 700px) {
+      .container {
+        padding: 14px 6px;
+        border-radius: 8px;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      h2 {
+        font-size: 1.15rem;
+      }
+      img {
+        max-width: 100%;
+        margin: 12px 0;
+        border-radius: 8px;
+      }
+      .faq p, .faq ul {
+        font-size: 0.99rem;
+      }
+    }
+    @media (max-width: 450px) {
+      h1 {
+        font-size: 1.18rem;
+      }
+      .container {
+        padding: 7px 2px;
+      }
+      .faq {
+        padding-bottom: 16px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Expert Answers: Website Design & SEO Insights</h1>
-
     <div class="faq">
       <h2>1. What is the best website design company?</h2>
       <img src="banner1.webp" alt="Best Website Design Company in Bawana">
-      <p>There’s no single “best” website design company that fits everyone — the ideal choice depends on your goals, budget, and style. However, I can share what to look for and suggest a few options based on my experience as a digital marketer and freelancer.</p>
-
+      <p>There’s no single “best” website design company that fits everyone — the ideal choice depends on your goals, budget, and style. However, I can share what to look for and suggest a few...</p>
       <p>When choosing a website design company, prioritize three things:</p>
       <ul>
         <li>Strategic thinking (not just aesthetics)</li>
         <li>Mobile and SEO optimization</li>
         <li>Conversion-focused design</li>
       </ul>
-
-      <p>Many top-tier agencies deliver visually impressive sites, but fail to integrate marketing, performance, and lead generation. That’s where boutique or freelancer-led teams often provide better value — they’re agile, personal, and more aligned with small business needs.</p>
-
-      <p>For instance, I’ve worked with clients across industries to develop custom websites that blend clean UX with strong branding and performance. If you're looking for a blend of design, development, and marketing expertise, you can explore some of my recent <a href="/portfolio.html">web design projects</a> where strategy meets creativity.</p>
-
-      <p>Additionally, good agencies should offer more than just design. Services like SEO, social media marketing, and paid ads help ensure your site not only looks great — but also brings real traffic and leads. This <a href="/">digital marketing portfolio</a> outlines how integrating design with marketing tactics can give businesses a strong online foundation.</p>
-
-      <p>For those who prefer working with a dedicated professional rather than a large agency, platforms like Dribbble, Upwork, or even reaching out directly through a freelancer's site can be effective. I’ve personally helped startups, eCommerce brands, and service businesses grow through customized digital solutions — feel free to check my <a href="/services.html">full-service offering</a>.</p>
-
-      <p>In summary, the "best" website design company is the one that understands your brand, goals, and audience. Whether you choose a large firm or a freelancer-led team, focus on value, communication, and measurable results over big names or awards.</p>
+      <p>Many top-tier agencies deliver visually impressive sites, but fail to integrate marketing, performance, and lead generation. That’s where boutique or freelancer-led teams often provide better results...</p>
+      <p>For instance, I’ve worked with clients across industries to develop custom websites that blend clean UX with strong branding and performance. If you're looking for a blend of design, development, and business strategy, consider agencies with proven results...</p>
+      <p>Additionally, good agencies should offer more than just design. Services like SEO, social media marketing, and paid ads help ensure your site not only looks great — but also brings real traffic and leads...</p>
+      <p>For those who prefer working with a dedicated professional rather than a large agency, platforms like Dribbble, Upwork, or even reaching out directly through a freelancer's site can be effective...</p>
+      <p>In summary, the "best" website design company is the one that understands your brand, goals, and audience. Whether you choose a large firm or a freelancer-led team, focus on value, communication, and long-term growth.</p>
     </div>
-
     <div class="faq">
       <h2>2. How much does a website cost in Bawana?</h2>
       <img src="website-development.webp" alt="Website Development Company in Bawana">
-      <p>Website pricing in Bawana depends on features, complexity, and business goals. A basic business website with 5–6 pages can cost around ₹5,000–₹10,000. E-commerce websites range between ₹15,000 to ₹40,000 depending on the platform, payment gateway, and product catalog.</p>
+      <p>Website pricing in Bawana depends on features, complexity, and business goals. A basic business website with 5–6 pages can cost around ₹5,000–₹10,000. E-commerce websites range between ₹15,000–₹40,000 depending on features.</p>
       <p>Custom development (WordPress, React, or PHP) may vary. I offer affordable packages tailored to small businesses in Bawana, ensuring SEO-friendliness and mobile responsiveness.</p>
     </div>
-
     <div class="faq">
       <h2>3. Why is SEO important for local businesses in Delhi?</h2>
       <img src="seo.webp" alt="SEO Services in Bawana, Delhi">
-      <p>SEO helps your business show up on Google when someone searches for services like “website development company in Bawana.” It increases traffic, leads, and credibility. For local Delhi businesses, SEO ensures visibility in maps, mobile searches, and targeted queries.</p>
+      <p>SEO helps your business show up on Google when someone searches for services like “website development company in Bawana.” It increases traffic, leads, and credibility. For local Delhi businesses, appearing in local search results is crucial for growth.</p>
       <p>I provide local SEO, on-page optimization, and backlink building services to help small businesses grow online without spending big on ads.</p>
     </div>
-
     <div class="faq">
       <h2>4. Freelancer or Agency: Which is better for website design?</h2>
       <img src="about.webp" alt="Freelance Website Developer in Bawana">
       <p>If you’re a startup or local service provider, working with a freelancer can be cost-effective and flexible. Agencies have larger teams and more structured workflows but may charge higher prices.</p>
-      <p>As a freelancer, I offer personalized service, quick turnaround, and multi-skill support (design + SEO + marketing). Choose based on your goals — but always ask for a portfolio, testimonials, and SEO-friendly features.</p>
+      <p>As a freelancer, I offer personalized service, quick turnaround, and multi-skill support (design + SEO + marketing). Choose based on your goals — but always ask for a portfolio, testimonials, and clear deliverables.</p>
     </div>
-
   </div>
 </body>
 </html>
